@@ -26,7 +26,7 @@ h(x) 二维可视化：
 ![修正07](/images/xz07.png) ![修正08](/images/xz08.png) ![修正09](/images/xz09.png)
 ![修正10](/images/xz10.png) ![修正11](/images/xz11.png) 
 
-## Guarantee of PLA
+## Guarantee of PLA PLA的保证
 
 PLA 的终止条件，就是 D 是线性可分。这样对于任意点存在
 
