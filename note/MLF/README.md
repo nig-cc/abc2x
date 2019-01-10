@@ -1,10 +1,10 @@
 ## 路线图
 
 - **When** Can Machine Learn? 什么时候要用机器学习？
-  - [The Learning Problem](mlf01.md)
-  - [Learning to Answer Yes/No](mlf02.md)
-  - [Types of Learning](mlf03.md)
-  - [Feasibility of Learning](mlf04.md)
+  - [The Learning Problem](mlf01.md) 学习相关问题
+  - [Learning to Answer Yes/No](mlf02.md) 学习分辨是非
+  - [Types of Learning](mlf03.md) 学习的类型
+  - [Feasibility of Learning](mlf04.md) 学习的可行性
 
 - **Why** Can Machine Learn? 为什么可以用机器学习？
   - [Training versus Testing](mlf05.md)
