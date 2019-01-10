@@ -1,13 +1,10 @@
 #  深度学习
-## 主要问题分类
-### 分类问题
+## 学习步骤
+### 数学基础
 
+### 机器学习
+[NTU 机器学习基石](https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
 
-### 回归问题
+[NTU 机器学习技法](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)
 
-
-## 主要应用领域
-### 计算机视觉
-
-
-### 自然语言处理
+### 深度学习
