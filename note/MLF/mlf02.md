@@ -26,6 +26,31 @@ h(x) 二维可视化：
 ![修正07](/images/xz07.png) ![修正08](/images/xz08.png) ![修正09](/images/xz09.png)
 ![修正10](/images/xz10.png) ![修正11](/images/xz11.png) 
 
-
 ## Guarantee of PLA
+
+PLA 的终止条件，就是 D 是线性可分。这样对于任意点存在
+
+![完全分开](/images/gpla01.png)
+
+内积越大表示越接近
+
+![内积](/images/gpla02.png)
+
+向量长度相差不大
+	
+![大小](/images/gpla03.png)
+
+因此
+
+![结论](/images/gpla04.jpg)
+
+也就是说，迭代次数 T 是有上界的
+
+![定义](/images/gpla06.jpg)
+
+![迭代次数](/images/gpla05.png)
+
 ## Non-Separable Data
+
+
+
