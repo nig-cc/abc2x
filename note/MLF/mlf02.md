@@ -19,5 +19,13 @@ h(x) 二维可视化：
 
 ![PLA 模型](/images/plamx.png)
 
+图解 PLA 修正过程：
+
+![修正01](/images/xz01.png) ![修正02](/images/xz02.png) ![修正03](/images/xz03.png)
+![修正04](/images/xz04.png) ![修正05](/images/xz05.png) ![修正06](/images/xz06.png)
+![修正07](/images/xz07.png) ![修正08](/images/xz08.png) ![修正09](/images/xz09.png)
+![修正10](/images/xz10.png) ![修正11](/images/xz11.png) 
+
+
 ## Guarantee of PLA
 ## Non-Separable Data
