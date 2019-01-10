@@ -12,11 +12,25 @@
 - 有大量的数据样本可供使用
 
 应用场景
-- Food
-- Clothing
-- Housing
-- Transportation
+- 食
+- 衣
+- 住
+- 行
+  - 无人驾驶
+- 育
+- 乐
+  - 推荐系统
 
 ## Components of Machine Learning 机器学习组成部分
 
+- 输入 `X`
+- 输出 `Y`
+- 目标函数 `f` <- 未知
+- 训练样本 `D`
+- 假设集(H)中最好假设 `g` <- 目标: `g` 趋紧 `f`
+
 ## Machine Learning and Other Fields 机器学习相关领域
+
+- Data Mining 数据挖掘
+- Artificial Intelligence 人工智能
+- Statistics 统计学
