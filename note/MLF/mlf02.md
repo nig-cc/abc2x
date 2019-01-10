@@ -50,7 +50,16 @@ PLA 的终止条件，就是 D 是线性可分。这样对于任意点存在
 
 ![迭代次数](/images/gpla05.png)
 
-## Non-Separable Data
+## Non-Separable Data 非线性可分数据
 
+对于非线性可分的情况，我们可以把它当成是数据集 D 中掺杂了一下 noise，机器学习流程是这样的：
 
+![流程](/images/fx01.png)
 
+NP-hard 问题
+
+![NP-hard](/images/fx02.png)
+
+Packet Algorithm
+
+![Packet Algorithm](/images/fx03.png)
