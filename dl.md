@@ -18,14 +18,14 @@
       - [视频](https://mooc.study.163.com/course/2001281002#/info)
       - [笔记](/note/DL1/README.md) 
     - 改善深层神经网络 
-      - [视频](https://mooc.study.163.com/course/2001281002#/info)
+      - [视频](https://mooc.study.163.com/course/2001281003#/info)
       - [笔记](/note/DL02/README.md) 
     - 结构化机器学习项目 
-      - [视频](https://mooc.study.163.com/course/2001281002#/info)
+      - [视频](https://mooc.study.163.com/course/2001280004#/info)
       - [笔记](/note/DL03/README.md) 
     - 卷积神经网络
-      - [视频](https://mooc.study.163.com/course/2001281002#/info)
+      - [视频](https://mooc.study.163.com/course/2001281004#/info)
       - [笔记](/note/DL04/README.md) 
     - 序列模型 
-      - [视频](https://mooc.study.163.com/course/2001281002#/info)
+      - [视频](https://mooc.study.163.com/course/2001280005#/info)
       - [笔记](/note/DL05/README.md) 
