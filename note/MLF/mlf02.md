@@ -89,7 +89,15 @@ PLA 的终止条件，就是 D 是线性可分。这表示存在一个完美的 
 ![迭代次数](/images/gpla05.png)
 
 ## Non-Separable Data 非线性可分数据
-PLA 总结
+PLA 总结 - 只要线性可分并且错误都被更正，就会有
+- w_f 与 w_t 的内积增长较快；w_t 的长度增长较慢
+- w_t 越来越趋近 w_f（终止时），意味着分割线越来越正确
+
+实际上，可以推广到任意纬度
+
+然而
+- 我们基于线程可分的假设来终止迭代
+- 并不确定知道需要多久 PLA 才会终止迭代 
 
 ![PLA总结](/images/yn11.png)
 
@@ -97,10 +105,14 @@ PLA 总结
 
 ![流程](/images/yn12.png)
 
-NP-hard 问题
+这种情况下，我们找不到完美的线，但可以找一条更好的线使得在数据集 D 上错误最少 - NP-hard 问题
 
 ![NP-hard](/images/yn13.png)
 
-Packet Algorithm
+那怎么办呢？
+
+在修正错误(随机)的线时，我们假设可以遇到一条还不错的线 - Packet Algorithm
+- 不确定什么时候终止
+- 找到还不错的线就停止
 
 ![Packet Algorithm](/images/yn14.png)
