@@ -31,7 +31,7 @@ Cyclic PLA 模型
 
 ![Cyclic PLA 模型](/images/yn07.png)
 
-图解 PLA 修正过程：
+图解 PLA 修正过程(分割线垂直 w_t)：
 
 ![修正01](/images/xz01.png) ![修正02](/images/xz02.png) ![修正03](/images/xz03.png)
 ![修正04](/images/xz04.png) ![修正05](/images/xz05.png) ![修正06](/images/xz06.png)
@@ -58,18 +58,29 @@ PLA 的终止条件，就是 D 是线性可分。这表示存在一个完美的 
 ### 推导过程
 
 假设条件
+- w_f 完美分类
+- 只在有错误时更新 w_t
+- 根据[向量加法](/note/SC/向量加法.md)更新 w_t
+
+结论：迭代次数 T 有上界
 
 ![假设条件](/images/platd01.png)
 
-w_t
+这意味着两件事
+- 基于上述不等式左边(实际上是两向量的 cos)不大于 1，所以迭代次数 T 不大于一个具体值，意味着迭代会结束
+- w_t 和 w_f 的角度在逐渐减少，说明w_t 在逐渐靠近 w_f，意味着解决问题的方向是对的
+
+下面是证明过程
+
+对于 w_t 有：
 
 ![w_t](/images/platd02.png)
 
-||w_t||
+对于 ||w_t|| 有：
 
 ![w_t  长度](/images/platd03.png)
 
-给出一个定义
+在这时，先给出一个定义
 
 ![定义](/images/gpla06.jpg)
 
