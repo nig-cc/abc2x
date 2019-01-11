@@ -29,11 +29,11 @@
 ![总结1](/images/type06.png)
 
 ## Learning with Different Data Label y 基于数据标签
-硬币识别(with y) - 监督式学习
+硬币识别(知道标签) - 监督式学习
 
 ![硬币识别1](/images/type07.png)
 
-硬币识别(without y) - 非监督式学习
+硬币识别(不知道标签) - 非监督式学习
 
 ![硬币识别2](/images/type09.png)
 
@@ -41,7 +41,7 @@
 
 ![其他非监督式学习](/images/type10.png)
 
-硬币识别(with some y) - 半监督式学习
+硬币识别(知道部分标签) - 半监督式学习
 
 ![硬币识别3](/images/type11.png)
 
