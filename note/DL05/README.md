@@ -1,29 +1,13 @@
 ## 路线图
  
-- **When** Can Machine Learn? 什么时候要用机器学习？
-  - [The Learning Problem](mlf01.md) 学习相关问题
-  - [Learning to Answer Yes/No](mlf02.md) 学习分辨是非
-  - [Types of Learning](mlf03.md) 学习的类型
-  - [Feasibility of Learning](mlf04.md) 学习的可行性
+- [循环序列模型](/note/DL05/dl0501.md)
 
-- **Why** Can Machine Learn? 为什么可以用机器学习？
-  - [Training versus Testing](mlf05.md)
-  - [Theory of Generalization](mlf06.md)
-  - [The VC Dimension](mlf07.md)
-  - [Noise and Error](mlf08.md)
-  
-- **How** Can Machine Learn? 怎么使用机器学习？
-  - [Linear Regression](mlf09.md)
-  - [Logistic Regression](mlf10.md)
-  - [Linear Models for Classification](mlf11.md)
-  - [Nonlinear Transformation](mlf12.md)
-  
-- How Can Machine Learn **Better**? 如何更好使用机器学习？
-  - [THazard of Overfitting](mlf13.md)
-  - [Regularization](mlf14.md)
-  - [Validation](mlf15.md)
-  - [Three Learning Principles](mlf16.md)
+理解如何构建并训练循环神经网络，以及一些广泛应用的变体
 
-## 记录
-- [理论](mlfll.md) 
-- [生词](mlfsc.md)
+- [自然语言处理与词嵌入](/note/DL05/dl0502.md)
+
+能够将序列模型应用到自然语言问题中，包括文字合成
+
+- [序列模型和注意力机制](/note/DL05/dl0503.md)
+
+能够将序列模型应用到音频应用，包括语音识别和音乐合成
