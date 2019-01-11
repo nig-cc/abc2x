@@ -1,28 +1,20 @@
 ## 路线图
  
-- **When** Can Machine Learn? 什么时候要用机器学习？
-  - [The Learning Problem](mlf01.md) 学习相关问题
-  - [Learning to Answer Yes/No](mlf02.md) 学习分辨是非
-  - [Types of Learning](mlf03.md) 学习的类型
-  - [Feasibility of Learning](mlf04.md) 学习的可行性
+- [深度学习的实用层面](/note/DL02/dl0201.md)
 
-- **Why** Can Machine Learn? 为什么可以用机器学习？
-  - [Training versus Testing](mlf05.md)
-  - [Theory of Generalization](mlf06.md)
-  - [The VC Dimension](mlf07.md)
-  - [Noise and Error](mlf08.md)
+理解业界构建深度神经网络应用最有效的做法
+
+能够高效地使用神经网络通用的技巧，包括初始化、L2和dropout正则化、Batch归一化、梯度检验
+
+- [优化算法](/note/DL02/dl0202.md)
+
+能够实现并应用各种优化算法，并检查它们的收敛程度
+
+- [超参数调试、Batch正则化和程序框架](/note/DL02/dl0203.md)
   
-- **How** Can Machine Learn? 怎么使用机器学习？
-  - [Linear Regression](mlf09.md)
-  - [Logistic Regression](mlf10.md)
-  - [Linear Models for Classification](mlf11.md)
-  - [Nonlinear Transformation](mlf12.md)
-  
-- How Can Machine Learn **Better**? 如何更好使用机器学习？
-  - [THazard of Overfitting](mlf13.md)
-  - [Regularization](mlf14.md)
-  - [Validation](mlf15.md)
-  - [Three Learning Principles](mlf16.md)
+理解深度学习时代关于如何构建训练/开发/测试集以及偏差/方差分析最新最有效的方法
+
+能够用TensorFlow实现一个神经网络
 
 ## 记录
 - [理论](mlfll.md) 
