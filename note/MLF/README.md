@@ -1,5 +1,5 @@
 ## 路线图
-
+ 
 - **When** Can Machine Learn? 什么时候要用机器学习？
   - [The Learning Problem](mlf01.md) 学习相关问题
   - [Learning to Answer Yes/No](mlf02.md) 学习分辨是非
@@ -23,3 +23,7 @@
   - [Regularization](mlf14.md)
   - [Validation](mlf15.md)
   - [Three Learning Principles](mlf16.md)
+
+## 记录
+- [理论](mlfll.md) 
+- [生词](mlfsc.md)
