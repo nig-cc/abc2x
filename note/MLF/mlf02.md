@@ -53,7 +53,7 @@ PLA 的终止条件，就是 D 是线性可分。这样对于任意点存在，�
 
 也就是说，迭代次数 T 是有上界的
 
-![定义](/images/gpla06.png)
+![定义](/images/gpla06.jpg)
 
 ![迭代次数](/images/gpla05.png)
 
