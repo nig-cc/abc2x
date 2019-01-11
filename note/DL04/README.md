@@ -1,28 +1,20 @@
 ## 路线图
- 
-- **When** Can Machine Learn? 什么时候要用机器学习？
-  - [The Learning Problem](mlf01.md) 学习相关问题
-  - [Learning to Answer Yes/No](mlf02.md) 学习分辨是非
-  - [Types of Learning](mlf03.md) 学习的类型
-  - [Feasibility of Learning](mlf04.md) 学习的可行性
 
-- **Why** Can Machine Learn? 为什么可以用机器学习？
-  - [Training versus Testing](mlf05.md)
-  - [Theory of Generalization](mlf06.md)
-  - [The VC Dimension](mlf07.md)
-  - [Noise and Error](mlf08.md)
-  
-- **How** Can Machine Learn? 怎么使用机器学习？
-  - [Linear Regression](mlf09.md)
-  - [Logistic Regression](mlf10.md)
-  - [Linear Models for Classification](mlf11.md)
-  - [Nonlinear Transformation](mlf12.md)
-  
-- How Can Machine Learn **Better**? 如何更好使用机器学习？
-  - [THazard of Overfitting](mlf13.md)
-  - [Regularization](mlf14.md)
-  - [Validation](mlf15.md)
-  - [Three Learning Principles](mlf16.md)
+- [卷积神经网络](/note/dl0401.md) 
+
+理解如何搭建一个神经网络，包括最新的变体，例如残余网络
+
+- [深度卷积网络](/note/dl0402.md) 
+
+能够在图像、视频以及其他2D或3D数据上应用这些算法
+
+- [目标检测](/note/dl0403.md) 
+
+知道如何使用神经风格迁移生成艺术
+
+- [特殊应用：人脸识别和神经风格转换](/note/dl0404.md) 
+
+知道如何将卷积网络应用到视觉检测和识别任务
 
 ## 记录
 - [理论](mlfll.md) 
