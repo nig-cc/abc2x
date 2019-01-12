@@ -116,3 +116,7 @@ PLA 总结 - 只要线性可分并且错误都被更正，就会有
 - 找到还不错的线就停止
 
 ![Packet Algorithm](/images/yn14.png)
+
+## 下一课
+
+[Types of Learning](/note/MLF/mlf03.md)

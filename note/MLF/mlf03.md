@@ -115,3 +115,7 @@ Active Learning
 将一些抽象的特征转换为具体的特征，是机器学习过程中非常重要的一个环节
 
 ![总结4](/images/type25.png)
+
+## 下一课
+
+[Feasibility of Learning](/note/MLF/mlf04.md)

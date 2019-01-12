@@ -88,3 +88,6 @@
 ![统计流程](/images/kx406_.png)
 
 
+## 下一课
+
+[Training versus Testing](/note/MLF/mlf05.md)
