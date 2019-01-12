@@ -24,11 +24,11 @@
 
 ### 总结
 
-[机器学习中的数学基础](/note/Summary/sx.md)
+- [机器学习中的数学基础](/note/Summary/sx.md)
 
-[机器学习](/note/Summary/ml.md)
+- [机器学习](/note/Summary/ml.md)
 
-[深度学习](/note/Summary/dl.md)
+- [深度学习](/note/Summary/dl.md)
 
 ## 工程实践学习
 
