@@ -1,19 +1,20 @@
 ## 路线图
 - 机器学习基础知识
-  - [绪论](mlzzh01.md) 
-  - [模型评估与选择](mlzzh02.md) 
-  – [线性模型](mlzzh03.md) 
+  - [绪论](mlzzh01.md)
+  - [模型评估与选择](mlzzh02.md)
+  - [线性模型](mlzzh03.md) 
 - 经典而常用的机器学习方法
   - [决策树](mlzzh04.md) 
-  – [神经网络](mlzzh05.md) 
+  - [神经网络](mlzzh05.md) 
   - [支持向量机](mlzzh06.md) 
   - [贝叶斯分类](mlzzh07.md) 
   - [集成学习](mlzzh08.md) 
   - [聚类](mlzzh09.md) 
   - [降维与度量学习](mlzzh10.md) 
+  
 - 进阶知识
   - [特征选择与稀疏学习](mlzzh11.md) 
-  – [计算学习理论](mlzzh12.md)  
+  - [计算学习理论](mlzzh12.md)  
   - [半监督学习](mlzzh13.md) 
   - [概率图模型](mlzzh14.md) 
   - [规则学习](mlzzh15.md) 
