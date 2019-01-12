@@ -1,3 +1,10 @@
+## 切入点
+基础
+- [哲学上机器学习的思想](zxss.md)
+- [数学上的工具](sxgj.md)
+- [演算法的设计](ysfsj.md)
+- [演算法的使用](ysfsy.md)
+
 ## 路线图
  
 - **When** Can Machine Learn? 什么时候要用机器学习？
