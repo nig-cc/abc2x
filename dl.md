@@ -8,9 +8,9 @@
 
 - 林轩田 机器学习技法 -> [视频](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2) | [笔记](/note/MLT/README.md) 
   
-- 李航 统计学习方法 -> [笔记](/note/STM_LH/README.md) 
+- 李航 《统计学习方法》 -> [笔记](/note/STM_LH/README.md) 
  
-- 周志华 机器学习 -> [笔记](/note/ML_ZZH/README.md) 
+- 周志华 《机器学习》 -> [笔记](/note/ML_ZZH/README.md) 
 
 ### 深度学习
  - 吴恩达 深度学习专题
