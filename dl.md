@@ -1,6 +1,8 @@
 #  深度学习
-## 学习步骤
+## 学术理论学习
 ### 数学基础
+
+概率论与统计
 
 ### 机器学习
 
@@ -19,3 +21,9 @@
     - 结构化机器学习项目 -> [视频](https://mooc.study.163.com/course/2001280004#/info) | [笔记](/note/DL03/README.md) 
     - 卷积神经网络 -> [视频](https://mooc.study.163.com/course/2001281004#/info) | [笔记](/note/DL04/README.md) 
     - 序列模型 -> [视频](https://mooc.study.163.com/course/2001280005#/info) | [笔记](/note/DL05/README.md) 
+
+## 工程实践学习
+
+python 机器学习
+
+## 实际项目
