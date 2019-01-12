@@ -35,5 +35,12 @@
 - 通常称其中一个类为**正类 (positive class)**，另一个类为**反类 (negative class)**
 - 涉及多个类别的分类任务:**多分类(multi-class classification)**
 
+一般地，预测任务是希望通过对训练集进行学习，建立一个从输入空间到输出空间的映射
+
+- 学得模型后，使用其进行预测的过程:**测试(testing)**
+- 被预测的样本:**测试样本(testing sample)**
+- 学得模型适用于新样本的能力:**泛化(generalization)能力**
+- 通常假设样本空间中全体样本服从一个未知分布，获取的样本都是独立地从这个分布上采样获得的:**独立同分布(independent and identically distributed)**
+
 ## 
 
