@@ -1,29 +1,23 @@
-# The Learning Problem
+# The Learning Problem 机器学习相关问题
 ## What is Machine Learning 什么是机器学习
 
-- 学习 - 人类通过`观察`、积累`经验`，掌握某项`技能`
+- 学习 - 人类通过`观察`，积累`经验`，掌握某项`技能`
 - 机器学习 - 机器通过对大量的数据`训练`，发现事物`规律`，获得某种分析问题、解决问题的`能力`
 
 ![机器学习](/images/jqxl.png)
 
-## Applications of Machine Learning 机器学习应用场景
+## Applications of Machine Learning 机器学习的应用场景
 
-三个条件
+使用机器学习的三个条件
 - 事物本身存在某种潜在规律
 - 某些问题难以使用普通编程解决
 - 有大量的数据样本可供使用
 
-应用场景
-- 食
-- 衣
-- 住
-- 行
-  - 无人驾驶
-- 育
-- 乐
-  - 推荐系统
+机器学习的应用场景
+- 食、衣、住、行
+- 育、乐
 
-## Components of Machine Learning 机器学习组成部分
+## Components of Machine Learning 机器学习的组成部分
 
 - 输入 `X`
 - 输出 `Y`
@@ -33,16 +27,20 @@
 
 ![机器学习组成部分](/images/mlzc.png)
 
-## Machine Learning and Other Fields 机器学习相关领域
+## Machine Learning and Other Fields 机器学习与相关领域比较
 
-- Data Mining 数据挖掘
+- 机器学习与数据挖掘的关系
 
 ![数据挖掘](/images/mldm.png)
 
-- Artificial Intelligence 人工智能
+- 机器学习与人工智能的关系
 
 ![人工智能](/images/mlai.png)
 
-- Statistics 统计学
+- 机器学习与统计学的关系
 
 ![统计学](/images/mlst.png)
+
+## 下一课
+
+[Learning to Answer Yes/No](/note/MLF/mlf02.md)
