@@ -108,13 +108,20 @@ Bad Sample 与 Bad Data 的概念
 
 ![不好的数据的边界](/images/kx405_.png)
 
-其中，M 是 hypothesis 的个数，N 是样本 D 的数量， 是参数
+其中，M 是 hypothesis 的个数，N 是样本 D 的数量， ϵ 是参数
 
-统计流程
+该边界表明，当 M 有限，且 N 足够大的时候，Bad Data 出现的概率就更低了
 
-![统计流程](/images/kx406_.png)
+所以，如果 hypothesis 的个数 M 是有限的，N 足够大，那么通过演算法 A 任意选择一个 g，都有 样本中分类出错率 ≈ 样本外分类出错率 成立
 
+同时，如果找到一个 g，使样本中出错率≈0 ，就很可能保证样本外出错率≈0。至此，就证明了机器学习是可行的
+
+验证流程
+
+![流程](/images/kx406_.png)
+
+但是，M 无限大时怎么办？
 
 ## 下一课
 
-[Training versus Testing](/note/MLF/mlf05.md)
+[Training versus Testing](mlf05.md)
