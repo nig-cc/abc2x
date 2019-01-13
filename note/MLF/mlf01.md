@@ -5,23 +5,23 @@
 - 学习 - 人类通过`观察`，积累`经验`，掌握某项`技能`
 - 机器学习 - 机器通过对大量的数据`训练`，发现事物`规律`，获得某种分析问题、解决问题的`能力`
 
-![从学习到机器学习](/images/jqxl00.png)
+![从学习到机器学习](/images/jqxx00.png)
 
 什么是技能？-> 更具体的机器学习定义
 
-![什么是技能](/images/jqxl01.png)
+![什么是技能](/images/jqxx01.png)
 
 为什么使用机器学习？ -> 解决复杂问题的替代路线
 
-![为什么使用机器学习](/images/jqxl02.png)
+![为什么使用机器学习](/images/jqxx02.png)
 
 哪些路线？-> 授机器以鱼，不如授机器以渔
 
-![授之以渔](images/jqxl03.png)
+![授之以渔](images/jqxx03.png)
 
 机器学习的关键条件？-> 帮助决定是否使用机器学习
 
-![关键本质](images/jqxl04.png)
+![关键本质](images/jqxx04.png)
 
 ## Applications of Machine Learning 机器学习的应用场景
 
