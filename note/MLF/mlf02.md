@@ -4,7 +4,7 @@
 
 根据模型 H，使用演算法 A，在训练样本 D 上进行训练，得到最好的 h，其对应的 g 就是我们最后需要的机器学习的模型函数，一般 g 接近于目标函数 f
 
-## Perceptron Hypothesis Set 感知器假设集
+## Perceptron Hypothesis Set 感知器假设集 -> 超平面/线性分类器
 信用卡发放问题描述
 
 ![信用卡发放问题描述](/images/yn01.png)
@@ -26,7 +26,7 @@
 
 可以看出来，感知器 <-> 线性分离器
 
-## Perceptron Learning Algorithm 感知器学习算法
+## Perceptron Learning Algorithm 感知器学习算法 -> 更正错误并在迭代中增益
 
 那么我们如何从 H 中选择 g?
 - 我们要的是：g ≈ f（f 未知时很难做到）
@@ -112,7 +112,7 @@ PLA的实际实现 -> 循环 PLA
 
 结论：迭代次数 T 是有上界的 
 
-## Non-Separable Data 非线性可分数据
+## Non-Separable Data 非线性可分数据 -> Packet Algorithm 获得某些情况下的最好权重
 
 PLA 总结 - 只要线性可分并且错误都被更正，就会有
 - w_f 与 w_t 的内积增长较快；w_t 的长度增长较慢
@@ -142,6 +142,8 @@ PLA 总结 - 只要线性可分并且错误都被更正，就会有
 ![Packet Algorithm](/images/yn14.png)
 
 这样看来，只要简单的修改 PLA，就能找到最好的线(某些情况下)
+
+那么我们在何种情况下用 PLA，何种情况下用 Packet Algorithm 呢？
 
 ## 下一课
 
