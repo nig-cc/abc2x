@@ -1,4 +1,4 @@
-# Types of Learning 机器学习的分类
+# Types of Learning 机器学习的类型
 ## 上节回顾
 
     A(`PLA`) takes D(`线性可分) and H（`感知器`） to get g(`假设`)
@@ -66,7 +66,7 @@
 
 ![总结2](/images/type14.png)
 
-## Learning with Different Protocol f 基于协议(映射) - `batch`|online|active
+## Learning with Different Protocol f 基于协议 - `batch`|online|active
 
 还是硬币识别问题 - Batch Learning
 
