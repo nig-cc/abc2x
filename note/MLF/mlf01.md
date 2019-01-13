@@ -23,16 +23,29 @@
 
 ![关键本质](/images/jqxx04.png)
 
-## Applications of Machine Learning 机器学习的应用场景
-
 使用机器学习的三个条件
 - 事物本身存在某种潜在规律
 - 某些问题难以使用普通编程解决
 - 有大量的数据样本可供使用
 
-机器学习的应用场景
+## Applications of Machine Learning 机器学习的应用场景
 - 食、衣、住、行
-- 育、乐
+
+![食、衣、住、行](/images/jqxx05.png)
+
+- 育
+
+![育](/images/jqxx06.png)
+
+- 乐
+
+推荐系统
+
+![关键本质](/images/jqxx07.png)
+
+机器是怎么学习我们的偏好的？
+
+![关键本质](/images/jqxx08.png)
 
 ## Components of Machine Learning 机器学习的组成部分
 
