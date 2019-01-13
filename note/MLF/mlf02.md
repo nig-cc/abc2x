@@ -27,19 +27,23 @@
 感知器 <-> 线性分离器
 
 ## Perceptron Learning Algorithm 感知器学习算法
-算法思路
+那么我们如何从 H 中选择 g?
+- 我们要的是：g ≈ f（f 未知时很难做到）
+- 几乎可能：g ≈ f on D(理想时 g()=f(x)=y )
+- 困难：H 无穷大时
+- 思路：从一些 g 开始，在 D 上不断改正错误
 
 ![算法思路](/images/yn05.png)
 
-PLA 模型
-- 目标 -> 从 h(x) 找到 g，使得 g ≈ f(**未知**)
-- 思想 -> 随意取一条线，然后根据错误点进行修正([向量加法](/note/SC/向量加法.md))，直到所有的点都完全分类正确
+感知机学习算法 -> 从一些 g 开始，在 D 上不断[改正错误](/note/SC/向量加法.md)，直到所有的点都完全分类正确
 
 ![PLA 模型](/images/yn06.png)
 
-Cyclic PLA 模型
+承认错误是成功的一半
 
-![Cyclic PLA 模型](/images/yn07.png)
+PLA的实际实现 -> 循环 PLA
+
+![CyclicPLA](/images/yn07.png)
 
 图解 PLA 修正过程(分割线垂直 w_t)：
 
@@ -48,6 +52,16 @@ Cyclic PLA 模型
 ![修正07](/images/xz07.png) ![修正08](/images/xz08.png) ![修正09](/images/xz09.png)
 ![修正10](/images/xz10.png) ![修正11](/images/xz11.png) 
 
+关于 PLA 的一些疑问
+- 算法会终止(没有错误)吗？
+    - 自然循环时？
+    - 随机循环时？
+    - 其他变种？
+- 学习(g ≈ f)可能吗？
+    - on D，如果终止，那么应该可能
+    - 在 D 以外呢？
+    - 如果不终止呢？
+    
 ## Guarantee of PLA PLA的保证
 线性可分
 
