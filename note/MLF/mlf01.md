@@ -1,5 +1,5 @@
 # The Learning Problem 机器学习相关问题
-## What is Machine Learning 什么是机器学习
+## What is Machine Learning 什么是机器学习 -> 使用数据逼近目标
 
 从学习引入机器学习
 - 学习 - 人类通过`观察`，积累`经验`，掌握某项`技能`
@@ -28,7 +28,7 @@
 - 某些问题难以使用普通编程解决
 - 有大量的数据样本可供使用
 
-## Applications of Machine Learning 机器学习的应用场景
+## Applications of Machine Learning 机器学习的应用领域 -> 几乎任何领域
 - 食、衣、住、行
 
 ![食、衣、住、行](/images/jqxx05.png)
@@ -49,7 +49,7 @@
 
 - 金融、医药、法律
 
-## Components of Machine Learning 机器学习的组成部分
+## Components of Machine Learning 机器学习的组成部分 -> `A` takes `D` and `H` to `g`
 
 假设一个信用卡发放问题 -> 怎么发放信用卡对银行有利？
 
@@ -76,7 +76,7 @@
 
 ![评估定义](/images/jqxx13.png)
 
-## Machine Learning and Other Fields 机器学习与相关领域比较
+## Machine Learning and Other Fields 机器学习与其他领域 -> 与`DM`、`AI`、`Stats`有关系
 
 - 机器学习与数据挖掘的关系 -> 在现实中很难区分
 
