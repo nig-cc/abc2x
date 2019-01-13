@@ -33,6 +33,7 @@
 ![总结1](/images/type06.png)
 
 ## Learning with Different Data Label y 基于数据标签
+
 硬币识别(知道标签) - 监督学习
 
 ![硬币识别1](/images/type07.png)
@@ -91,7 +92,8 @@ Active Learning
 ![总结3](/images/type19.png)
 
 ## Learning with Different Input Space X 基于输入空间
-再次回到信用贷款审核问题(输入特征都属于实数域)- 具体特征
+
+再次回到信用卡发放问题(输入特征都属于实数域) - 具体特征
 
 ![审核](/images/type20.png)
 
@@ -122,4 +124,4 @@ Active Learning
 
 ## 下一课
 
-[Feasibility of Learning](/note/MLF/mlf04.md)
+[Feasibility of Learning](mlf04.md)
