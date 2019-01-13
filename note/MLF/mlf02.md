@@ -2,6 +2,8 @@
 
 ## 上节回顾
 
+    A takes D and H to get g
+
 根据模型 H，使用演算法 A，在训练样本 D 上进行训练，得到最好的 h，其对应的 g 就是我们最后需要的机器学习的模型函数，一般 g 接近于目标函数 f
 
 ## Perceptron Hypothesis Set 感知器假设集 -> 超平面/线性分类器

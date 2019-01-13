@@ -1,4 +1,8 @@
 # Types of Learning 机器学习的分类
+## 上节回顾
+
+    A(`PLA`) takes D(`线性可分) and H（`感知器`） to get g(`假设`)
+
 ## Learning with Different Output Space Y 基于输出空间
 
 信用贷款审核问题 - 二元分类问题
