@@ -42,7 +42,7 @@
 
 ![](/images/tt04.png)
 
-## Effective Number of Line
+## Effective Number of Line 有效线数
 
 我们先看一下 M 从哪来的？
 
@@ -78,7 +78,7 @@
 
 ![](/images/tt14.png)
 
-## Effective Number of Hypotheses
+## Effective Number of Hypotheses 有效 h 数
 
 ![](/images/tt15.png)
 
