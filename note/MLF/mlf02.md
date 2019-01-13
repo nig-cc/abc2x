@@ -2,7 +2,7 @@
 
 ## 上节回顾
 
-    A takes D and H to get g
+     takes D and H to get g
 
 根据模型 H，使用演算法 A，在训练样本 D 上进行训练，得到最好的 h，即是 g
 
