@@ -68,6 +68,8 @@
 
 ![](/images/tt11.png)
 
+3 个点有 8 种情况的线 ，是不是总是 8 种呢？
+
 ![](/images/tt12.png)
 
 3 个点有 6-8 种情况的线
@@ -98,9 +100,11 @@
 
 ![](/images/tt17.png)
 
-这种情况 (N+1)<<2^N，N 很大 
+这种情况是线性函数
 
 ![](/images/tt18.png)
+
+这种情况是多项式函数
 
 再看一下二维空间的情况
 
@@ -118,7 +122,7 @@
 
 ![](/images/tt21.png)
 
-那么对于 2D 或一般的感知机，m(N) 是多项式的吗？
+那么对于 2D 或一般的感知机，m(N) 是多项式函数吗？
 
 ![](/images/tt22.png)
 
@@ -127,9 +131,8 @@
 那么对于之前的四种成长函数，它们的 break point 是什么？
 ![](/images/tt23.png)
 
-通过观察，我们猜测成长函数可能与break point存在某种关系
+通过观察，我们猜测成长函数可能与 break point存在某种关系
 
-![](/images/tt24.png)
+## 下一课
 
-
-![](/images/tt25.png)
+[Theory of Generalization](mlf06.md)
