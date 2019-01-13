@@ -112,7 +112,7 @@ PLA的实际实现 -> 循环 PLA
 
 结论：迭代次数 T 是有上界的 
 
-## Non-Separable Data 非线性可分数据 -> Packet Algorithm 获得某些情况下的最好权重
+## Non-Separable Data 非线性可分数据 -> Packet 算法获得某些情况下的最好权重
 
 PLA 总结 - 只要线性可分并且错误都被更正，就会有
 - w_f 与 w_t 的内积增长较快；w_t 的长度增长较慢
