@@ -90,4 +90,4 @@
 
 ## 下一课
 
-[Learning to Answer Yes/No](/note/MLF/mlf02.md)
+[Learning to Answer Yes/No](mlf02.md)
