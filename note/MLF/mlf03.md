@@ -3,7 +3,7 @@
 
     A(`PLA`) takes D(`线性可分) and H（`感知器`） to get g(`假设`)
 
-## Learning with Different Output Space Y 基于输出空间
+## Learning with Different Output Space Y 基于输出空间 - `分类`|`回归`|结构化
 
 信用卡发放问题 - 二元分类问题
 
@@ -32,7 +32,7 @@
 
 ![总结1](/images/type06.png)
 
-## Learning with Different Data Label y 基于数据标签
+## Learning with Different Data Label y 基于数据标签 - `监督`|无/半监督|强化
 
 硬币识别(知道标签) - 监督学习
 
@@ -66,7 +66,7 @@
 
 ![总结2](/images/type14.png)
 
-## Learning with Different Protocol f 基于协议(映射)
+## Learning with Different Protocol f 基于协议(映射) - `batch`|online|active
 
 还是硬币识别问题 - Batch Learning
 
@@ -91,7 +91,7 @@ Active Learning
 
 ![总结3](/images/type19.png)
 
-## Learning with Different Input Space X 基于输入空间
+## Learning with Different Input Space X 基于输入空间 - `具体`|原始|抽象
 
 再次回到信用卡发放问题(输入特征都属于实数域) - 具体特征
 
