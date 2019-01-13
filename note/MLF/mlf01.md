@@ -17,11 +17,11 @@
 
 哪些路线？-> 授机器以鱼，不如授机器以渔
 
-![授之以渔](images/jqxx03.png)
+![授之以渔](/images/jqxx03.png)
 
 机器学习的关键条件？-> 帮助决定是否使用机器学习
 
-![关键本质](images/jqxx04.png)
+![关键本质](/images/jqxx04.png)
 
 ## Applications of Machine Learning 机器学习的应用场景
 
