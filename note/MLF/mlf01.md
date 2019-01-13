@@ -74,7 +74,7 @@
 
 ![评估定义](/images/jqxx13.png)
 
-## Machine Learning and Other Fields 机器学习与其他领域 -> 与`DM`、`AI`、`Stats`有关系
+## Machine Learning and Other Fields 机器学习与其他领域
 
 - 机器学习与数据挖掘的关系 -> 在现实中很难区分
 
