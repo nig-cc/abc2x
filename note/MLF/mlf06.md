@@ -21,13 +21,50 @@
 
 那么，如果给定 N 和 k，只要证明 m(N) 的最大值的上界是多项式的，就能用 m(N) 代替 M <-> 机器学习是可行的
  
-## Bounding Function: Basic Cases
+## Bounding Function
 
 边界函数 B(N,k)：指的是当突破点为 k 的时候，成长函数 m(N) 可能的最大值 
 
+![](/images/gt03.png)
 
 那么，新的目标就是证明 B(N,k) ≤ poly(N)
 
-## Bounding Function: Inductive Cases
+![](/images/gt04.png)
+
+求解 B(N,k) 的过程十分巧妙
+- 当 k=1 时，B(N,1) 恒为 1
+- 当 N < k 时，根据`突破点`的定义，很容易得到 B(N,k) = 2^N
+- 当 N = k 时，B(N,k) = 2^N-1
+- 当 N > k 时，B(N,k) = B(N-1,k) + B(N-1,k-1)
+
+根据递推公式，推导出B(N,K)满足下列不等式(上界满足多项式分布)
+
+![](/images/gt05.png)
+
+代入有突破点的三种成长函数看看
+
+![](/images/gt06.png)
+
+因此，对于2D 感知机，突破点为 k=4，m(N) 的上界是 N^(k-1)
 
 ## A Pictorial Proof
+
+对通用 h 来说，E_in 与 E_out 相差 的概率都是有上界的
+
+![](/images/gt07.png)
+
+步骤一
+
+![](/images/gt08.png)
+
+步骤二 
+
+![](/images/gt09.png)
+
+步骤三
+
+![](/images/gt10.png)
+
+总结一下
+
+![](/images/gt11.png)
