@@ -1,5 +1,5 @@
 # Training versus Testing 训练 VS 测试
-## Recap and Preview 回顾
+## Recap and Preview 回顾 - 两核心：E_in≈E_out？and E_in≈0？
 该流程图中，训练样本D和最终测试h的样本都是来自同一个数据分布，这是机器能够学习的前提
 
 如果 M 是有限的，N 足够大，那么通过演算法 A 任意选择一个 g，都有 E_in ≈ E_out
@@ -42,7 +42,7 @@
 
 ![](/images/tt04.png)
 
-## Effective Number of Line 有效线数
+## Effective Number of Line 有效线数 - 4个点最多14条线
 
 我们先看一下 M 从哪来的？
 
@@ -84,13 +84,15 @@
 
 也就是说有效线数(m)能够代替 M 同时 m << 2^N 时，对于无限条线也是可以学习的
 
-## Effective Number of Hypotheses 有效 h 数
+## Effective Number of Hypotheses 有效 h 数 - N 个点最多 m(N)
 
-可以知道二分类的 h 数是有上界 2^N 的， 接下来，我们要做的就是尝试用二分类的 h 数代替 M
+可以知道对分的 h 数是有上界 2^N 的， 接下来，我们要做的就是尝试用对分的 h 数代替 M
 
 ![](/images/tt15.png)
 
-二分类的 h 数的最大值就是成长函数 m(N)，有上界 2^N 
+对分的 h 数的最大值就是成长函数 m(N)，有上界 2^N 
+
+> 成长函数表示假设空间 H 对 N 个示例所能赋予标记的最大可能结果数 2^N 
 
 ![](/images/tt16.png)
 
@@ -116,7 +118,9 @@
 
 当为凸分布时，m(N) = 2^N，而这种情况覆盖了所有可能的分类情况
 
-## Break Point
+> 假设空间 H 的 VC 维是能被 H 打散的最大的样本的大小
+
+## Break Point - 当 m(N) 非指数时存在
 
 总结一下
 
@@ -126,12 +130,15 @@
 
 ![](/images/tt22.png)
 
-可以知道满足 m(k)≠2^k 的最小值就是 break point
+可以知道满足 m(k)≠2^k 的最小值就是突破点
 
-那么对于之前的四种成长函数，它们的 break point 是什么？
+> 假设空间 H 的 VC 维就是 k-1
+
+那么对于之前的四种类型成长函数，它们的 k 是什么？
+
 ![](/images/tt23.png)
 
-通过观察，我们猜测成长函数可能与 break point存在某种关系
+通过观察，我们猜测 m(N) 可能与 k 存在某种关系
 
 ## 下一课
 
