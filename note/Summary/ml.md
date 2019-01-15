@@ -90,3 +90,7 @@
 ### 数据近观
 
 ![](/images/zj_data_look.png)
+
+## 数据准备
+
+![](/images/zj_prepare.png)
