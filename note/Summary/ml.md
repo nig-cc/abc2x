@@ -94,3 +94,5 @@
 ## 数据准备
 
 ![](/images/zj_prepare.png)
+
+![](/images/zj_process.png)
